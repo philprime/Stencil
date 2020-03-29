@@ -8,5 +8,5 @@
 
 public func ~= (regex: Regex, value: String) -> RegexMatchResult? {
     let match = regex.match(in: value)
-    return match.captures.isEmpty ? nil : match
+    return match.items.isEmpty ? nil : match
 }
