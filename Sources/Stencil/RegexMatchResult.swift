@@ -25,11 +25,7 @@ public struct RegexMatchResult {
                 return prev + (1..<result.numberOfRanges).map({ result.range(at: $0) })
             })
             .compactMap({ range -> String? in
-                if range.lowerBound >= 0 && range.lowerBound <= searchString.count
-                    && range.upperBound >= 0 && range.upperBound <= searchString.count {
-                    return (searchString as NSString).substring(with: range)
-                }
-                return nil
+                (searchString as NSString).substring(with: range)
             })
     }
 }
