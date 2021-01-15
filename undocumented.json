@@ -1,0 +1,47 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/Stencil/Stencil/Sources/Stencil/Regex+Operator.swift",
+      "line": 9,
+      "symbol": "~=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Stencil/Stencil/Sources/Stencil/Regex.swift",
+      "line": 11,
+      "symbol": "Regex",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Stencil/Stencil/Sources/Stencil/Regex.swift",
+      "line": 16,
+      "symbol": "Regex.init(pattern:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Stencil/Stencil/Sources/Stencil/Regex.swift",
+      "line": 22,
+      "symbol": "Regex.match(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Stencil/Stencil/Sources/Stencil/RegexMatchResult.swift",
+      "line": 11,
+      "symbol": "RegexMatchResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Stencil/Stencil/Sources/Stencil/RegexMatchResult.swift",
+      "line": 16,
+      "symbol": "RegexMatchResult.captures",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/Stencil/Stencil"
+}
